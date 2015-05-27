@@ -29,7 +29,7 @@
           &lt; {{year-1}}
         </md-button>
         <span flex></span>
-        <md-button ng-click='year = year + 1' hide-gt-sm>
+        <md-button ng-show='year >= 2006' ng-click='year = year + 1' hide-gt-sm>
           {{year+1}} &gt;
         </md-button>
       </div>
